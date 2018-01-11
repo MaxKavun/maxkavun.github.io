@@ -1,0 +1,154 @@
+body {
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 13px;
+    color: #858585;
+    font-style: italic;
+}
+
+header {
+    background: #00aeef url('../img/background.jpg') no-repeat center top;
+    height: 650px;
+    color: #fff;
+}
+
+.logo {
+    margin-top:50px;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #00aeef;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 51px 0 15px 0;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.offer__title {
+    color: #fff;
+    font-size:70px;
+}
+
+.offer__desc {
+    color: #91daf6;
+    font-size:20px;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.offer {
+    margin-top:166px;
+}
+
+.illustrator {
+    display: block;
+    margin-top: 35px;
+}
+
+.section-title__intro {
+    width: 70%;
+}
+
+.gallery__item, .img {
+    background: #abbcc3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height:158px;
+    margin-top: 18px;
+}
+
+.img {
+    height: 104px;
+}
+
+.img_big {
+    height:188px;
+}
+
+.history {
+    align-items: center;
+    height: 150px;
+}
+
+.text__info:before {
+    content: '';
+    display: block;
+    width: 94px;
+    height:5px;
+    background: #00aeef;
+    margin-bottom: 17px;
+}
+
+.text {
+    align-items: flex-end;
+    height: 188px;
+    margin-top: 39px;
+}
+
+footer {
+    background: #151c27;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+.logo-footer {
+
+}
+
+.credits {
+
+}
+
+.icons__item {
+    width: 60px;
+    height:51px;
+    border-radius: 0 0 3px 3px;
+    cursor: pointer;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.icons {
+    justify-content: space-between
+}
+
+.icons__item_rss {
+    background: #ffaa16 url('../img/rss.png') no-repeat center center;
+    box-shadow: 0 3px 0 #d38600;
+}
+
+.icons__item_dribble {
+    background: #ec5b95 url('../img/dribble.png') no-repeat center center;
+    box-shadow: 0 3px 0 #d30054;
+}
+
+.icons__item_twitter {
+    background: #00aeef url('../img/twitter.png') no-repeat center center;
+    box-shadow: 0 3px 0 #0081b1;
+}
+
+.icons__item_facebook {
+    background: #0054a6 url('../img/facebook.png') no-repeat center center;
+    box-shadow: 0 3px 0 #003a72;
+}
+
+.credits {
+    margin-top:34px;
+}

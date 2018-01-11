@@ -1,0 +1,371 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+button{
+	text-transform: uppercase;
+	background: none;
+	font-size: 21px;
+	font-weight: 700;
+	border:3px solid #92b1b6;
+	border-radius: 20px;
+	padding: 15px 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.container{
+	width: 1169px;
+	margin: 0px auto;
+}
+
+.main_header{
+	padding: 42px 0;
+	margin-bottom: 20px;
+}
+
+.menu__desc{
+	margin-left: 30px;
+}
+
+.menu__desc li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.menu__desc li a{
+	text-decoration: none;
+	color: #747a7a;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: left;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.contacts{
+	float: right;
+	color: #3c3d42;
+}
+
+.contacts span{
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+.application{
+	clear: both;
+	background: url(../img/first_bg.jpg) no-repeat center center;
+	height: 735px;
+	color: #fff;
+}
+
+.application__desc{
+	width: 467px;
+	padding: 183px 0;
+}
+
+.application__desc h1{
+	font-size: 36px;
+}
+
+.application__desc h2{
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.application__desc p{
+	color: #9dc7d1;
+	font-size: 14px;
+	padding: 30px 0;
+	line-height: 1.6em;
+}
+
+.application__desc button{
+	color: #fff;
+}
+
+.development__heading{
+	width: 751px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 60px 0;
+	line-height: 1.6em;
+}
+
+.development__heading h2{
+	color: #636c6c;
+	font-size: 36px;
+	padding: 30px 0;
+}
+
+.development__heading p{
+	font-size: 16px;
+	color: #afb8b8;
+}
+
+.development__aside{
+	float: left;
+	width: 309px;
+	border-right: 1px solid #dbe2e2;
+
+}
+
+.development__content{
+	float: right;
+	width: 640px;
+	text-align: center;
+	margin: 110px 110px 0 0;
+}
+
+.development__aside__nav li{
+	list-style: none;
+	padding: 40px 0;
+	font-size: 20px;
+	color: #9fa9a9;
+}
+
+.development__aside__nav li i{
+	font-size: 40px;
+	margin-right: 25px;
+}
+
+.development__content i{
+	font-size: 140px;
+	color: #5dca88;
+	padding: 30px 0;
+}
+
+.development__content h2{
+	font-size: 24px;
+	color: #636c6c;
+	text-align: left;
+	padding: 30px 0;
+}
+
+.development__content p{
+	color: #bac1c1;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.product{
+	margin-top: 150px;
+	background: #f2f9fe;
+	overflow: hidden;
+}
+
+.product__desc{
+	width: 474px;
+	padding-top: 163px;
+	float: left;
+}
+
+.products__desc__header{
+	font-size: 36px;
+	color: #8c9494;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+.products__desc__header_green{
+	font-weight: 700;
+	color: #5dca88;
+}
+
+.product__desc p {
+	font-size: 16px;
+	color: #8c9494;
+	width: 427px;
+}
+
+.product__desc hr{
+	width: 104px;
+	height: 2px;
+	background: #949c9c;
+	border:none;
+	margin-bottom: 40px;
+}
+
+.product__desc button{
+	color: #636c6c;
+	border-color: #aab2b5;
+	margin: 50px 0;
+}
+
+.product__desc__phone{
+	float: left;
+	margin: 80px 80px 0px 180px;
+	padding-bottom: 40px;
+}
+
+.gallery__desc{
+	width: 751px;
+	margin:0px auto;
+	text-align: center;
+}
+
+.gallery__desc h2{
+	color: #636c6c;
+	font-size: 36px;
+	padding: 70px 0 20px 0;
+}
+
+.gallery__desc p{
+	font-size: 16px;
+	color: #afb8b8;
+	line-height: 1.6em;
+}
+
+.gallery__photo{
+	padding: 80px 0;
+}
+
+.gallery__photo img{
+	float: left;
+}
+
+.gallery__photo__list{
+	float: left;
+}
+
+.gallery__photo__list li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 35px;
+}
+
+.gallery__photo__list li img{
+	padding-bottom: 50px;
+}
+
+.gallery__photo__list li p{
+	width: 247px;
+	text-align: center;
+	margin: 0px auto;
+	font-size: 14px;
+	color: #8c9494;
+	line-height: 1.6em;
+}
+
+.arrow{
+	padding: 280px 0px;
+}
+
+.product__desc__phone_double{
+	margin: 80px 80px 0px 100px;
+}
+
+.reviews__desc{
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.reviews__desc h2{
+	color: #636c6c;
+	font-size: 36px;
+	padding: 70px 0 20px 0;
+}
+
+.reviews__desc img{
+	padding: 10px 0;
+}
+
+.reviews__desc p{
+	font-size: 24px;
+	padding: 10px 0;
+}
+
+.reviews__desc_gray{
+	color: #8c9494;
+}
+
+.reviews__desc_green{
+	color: #5dca88;
+}
+
+.reviews__desc i{
+	font-size: 10px;
+	margin: 0px 3px;
+}
+
+.subscribe{
+	background: #f3f5f5;
+	text-align: center;
+}
+
+.subscribe__desc{
+	padding-bottom: 100px;
+}
+
+.subscribe__desc h2{
+	color: #636c6c;
+	font-size: 36px;
+	padding: 70px 0 45px 0;
+}
+
+.subscribe__desc input{
+	border:2px solid #bbc3c2;
+	border-radius: 30px;
+	height: 52px;
+	width: 600px;
+	font-size: 14px;
+	color: #8c9494;
+	font-family: 'Raleway', sans-serif;
+	padding:0 25px;
+	margin-right: 30px;
+}
+
+.subscribe__desc button{
+	height: 56px;
+	border-radius: 30px;
+	border:3px solid #5dca88;
+	background: #5dca88;
+	color: #fff;
+	position: absolute;
+	margin-left: -120px;
+}
+
+.footer{
+	background: #2d312f;
+	text-align: center;
+}
+
+.footer__desc h3{
+	color: #8c9494;
+	font-size: 24px;
+	padding: 70px 0 35px 0;
+	font-weight: 300;
+}
+
+.footer__desc ul li{
+	list-style:none;
+	display: inline-block;
+	padding: 0px 7px;
+}
+
+.footer__desc__contacts{
+	padding: 50px 0;
+}
+
+.footer__desc__contacts li a{
+	font-size: 14px;
+	color: #8c9494;
+	text-decoration: none;
+	padding: 0px 5px;
+}
